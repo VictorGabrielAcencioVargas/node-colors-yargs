@@ -1,0 +1,8 @@
+# aquí se ignora todos los archivos que no son necesarios para desplegar la aplicación
+
+salida/*.txt
+
+# ignoramos también todos los paquetes de node_modules, porque ellos solo me es relevante package.json, ya que contiene toda la forma como se construye todos los módulos
+node_modules
+
+#Todos los archivos que git no les da un seguimiento aparecen con un color gris, esta es una forma de ver que archivos ignora git
